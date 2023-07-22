@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="BioSite for Hailey">
+    <meta name="keywords" content="html, css, BioSite">
+    <meta name="author" content="alex d">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>HailPail</title>
+    <script>
+      // this function will be called when a button is clicked
+      const changeLang = (languageCode) => {
+       document.documentElement.setAttribute("lang", languageCode);
+      };
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Poiret+One&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div>
+    <button onclick="changeLang('es')">Espanol</button>
+    <button onclick="changeLang('en')">English</button>
+    <button onclick="changeLang('fr')">French</button>
+  </div>
+    <div id="page-container">
+    <div id="content-wrap">
+    <header><p style="font-size: 30px; text-align: center; color: black;">Home of The Bish with the Wish</p>    
+        <div id="navbar"></div>
+        <a href="her.html">About Hailey</a>
+        <a href="hobbies.html">Hailey's Hobbies</a></header>
+
+<section>
+
+<h1>Lets talk about Hailey</h1>
+<p>This is where I am going to talk about Hailey for the first time</p>
+<img src="portrait.1.jpeg" alt="Picture of Hailey" style=" float: left; width: 110px;height: auto; padding-right: 25px;">
+
+<p>Hailey DeLira says that she is most thankful for the hard times and struggles she had in her life. 
+<br>She is thankful for them because they have pushed her to be a better, tougher version of herself and
+ helped her enjoy what she has now. It has helped her appreciate her life today because she has worked so hard to achieve them.
+ </p>
+</section>
+
+<div class="gallery"></div>
+    <a target="_blank" href="hailey.milo.jpg">
+      <img src="hailey.milo.jpg" alt="Hailey with her dog milo" width="250"
+       height="300">
+    </a>
+    <div class="desc">Hailey and milo</div>
+<div class="gallery"></div>
+    <a target="_blank" href="bcbsne.png">
+      <img src="bcbsne.png" alt="Blue Cross Blue Shield of Nebraska logo"
+       width="400" height="200">
+    </a>
+    <div class="desc">Blue Cross Blue Shield of Nebraska</div></div>
+  <footer>
+
+   </footer> 
+</div>
+</body>
+</html>
